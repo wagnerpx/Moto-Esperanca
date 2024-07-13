@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.titulo { 
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    width: 400px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    padding: 150px 0;
+}
