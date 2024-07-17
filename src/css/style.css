@@ -11,7 +11,8 @@ main:after {
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6712885837928921) 3%, rgba(0, 0, 0, 0.7133053905155813) 33%, rgba(0, 0, 0, 0.6180672952774859) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6138830532212884) 0%, rgba(0, 0, 0, 0.13769257703081228) 50%, rgba(0, 0, 0, 0.5858718487394958) 100%);
     z-index: -1;
 }
 
@@ -24,7 +25,6 @@ main:after {
 
 .informacoes .logo {
     max-width: 180px;
-    /* filter: invert(1); */
     margin-bottom: 80px;
 }
 
@@ -33,6 +33,7 @@ main:after {
     font-size: 24px;
     color: #ffffff;
     line-height: 30px;
+    text-align: justify;
 }
 
 .botoes-carrossel {
