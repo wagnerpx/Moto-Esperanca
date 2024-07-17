@@ -16,6 +16,16 @@ main:after {
     z-index: -1;
 }
 
+.painel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
