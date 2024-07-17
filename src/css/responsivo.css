@@ -13,8 +13,12 @@
     }
 
     .informacoes .descricao {
-        width: 60%;
+        width: 80%;
         text-align: center;
+    }
+
+    .botoes-carrossel .botao {
+        margin-bottom: 20px;
     }
 }
 
