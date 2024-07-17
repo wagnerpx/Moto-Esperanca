@@ -22,7 +22,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 520px) {
     .informacoes .logo {
         max-width: 120px;
     }
