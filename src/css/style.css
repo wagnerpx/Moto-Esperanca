@@ -85,6 +85,7 @@ main:after {
 
 .menu-lateral .icone {
     width: 30px;
+    height: 30px;
     filter: invert(1);
     transition: 0.3s ease-in-out;
 }
@@ -122,3 +123,11 @@ main:after {
         opacity: 1;
     }
 }
+
+/* .footer {
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+} */
