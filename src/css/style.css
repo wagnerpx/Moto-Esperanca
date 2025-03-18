@@ -124,10 +124,16 @@ main:after {
     }
 }
 
-/* .footer {
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
     color: #ffffff;
 }
 
-.footer a {
-    color: #ffffff;
-} */
+.footer p {
+    margin: 0 auto;
+    height: 5px;
+    
+}

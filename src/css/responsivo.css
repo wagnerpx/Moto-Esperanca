@@ -36,6 +36,7 @@
         min-height: auto;
         width: 100%;
         margin-top: 50px;
+        margin-bottom: 30PX;
     }
 
     .menu-lateral ul {
@@ -43,11 +44,51 @@
     }
 
     .conteudo {
-        min-height: 70vh;
-        gap: 50px;
+        min-height: 60vh;
+        gap: 40px;
+    }
+
+    .footer {
+        margin: 30px;
     }
 
     body {
-        padding: 40px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .informacoes .logo {
+        max-width: 80px;
+    }
+
+    .informacoes .descricao {
+        width: 80%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .botoes-carrossel {
+        gap: 15px;
+    }
+
+    .menu-lateral {
+        min-height: auto;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20PX;
+    }
+
+    .conteudo {
+        min-height: 30vh;
+        gap: 40px;
+    }
+
+    .footer {
+        margin: 30px;
+    }
+
+    body {
+        padding: 10px;
     }
 }
